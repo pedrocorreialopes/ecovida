@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <title>EcoVida | Ecologia e Mundo Animal</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="EcoVida — um espaço para conhecer, valorizar e proteger a natureza e o mundo animal." />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        :root{
+            --eco-green:#1f6f4a;
+            --eco-dark:#103b2a;
+            --eco-light:#eaf6ef;
+            --eco-gold:#d6a84f;
+        }
+        body{background:#f7fbf8;}
+        #header{
+            background:
+                linear-gradient(180deg,rgba(5,35,22,.35),rgba(5,35,22,.78)),
+                url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=2200&q=90") center/cover fixed !important;
+        }
+        #header h1{letter-spacing:.04em;text-shadow:0 3px 16px rgba(0,0,0,.45);}
+        #header p{font-size:1.12rem;}
+        .eco-badge{
+            display:inline-block;padding:.45rem .85rem;border-radius:999px;
+            background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
+            margin-bottom:1rem;font-size:.9rem;backdrop-filter:blur(5px);
+        }
+        .content.style1{background:linear-gradient(135deg,#123d2b,#1f6f4a)!important;}
+        .content.style2{background:linear-gradient(135deg,#153e2d,#285f48)!important;}
+        .content.style3{background:linear-gradient(135deg,#0f3425,#1c513a)!important;}
+        .feature-icon{background:rgba(255,255,255,.13)!important;border:1px solid rgba(255,255,255,.15);}
+        .animal-card img,.nature-gallery img{border-radius:12px;transition:transform .35s ease,filter .35s ease;}
+        .animal-card:hover img,.nature-gallery a:hover img{transform:scale(1.035);filter:saturate(1.12);}
+        .eco-quote{
+            margin:1.5rem 0;padding:1.25rem 1.5rem;border-left:4px solid var(--eco-gold);
+            background:rgba(255,255,255,.08);border-radius:0 12px 12px 0;
+            font-size:1.08rem;
+        }
+        .credits{
+            margin-top:1rem;font-size:.85rem;opacity:.82;
+        }
+        #footer{background:#0c2b1e;}
+    </style>
+</head>
+<body class="is-preload">
+
+<section id="header" class="dark">
+    <header>
+        <span class="eco-badge">🌿 ECOLOGIA • VIDA • CONSERVAÇÃO</span>
+        <h1>EcoVida</h1>
+        <p>Descubra a beleza da natureza e o incrível mundo animal.</p>
+        
+    </header>
+    <footer>
+        <a href="#first" class="button scrolly">Explorar a natureza</a>
+    </footer>
+</section>
+
+<section id="first" class="main">
+    <header>
+        <div class="container">
+            <h2>Um planeta extraordinário para conhecer e preservar</h2>
+            <p>A natureza conecta todos os seres vivos. Conheça animais fascinantes, ecossistemas únicos e atitudes que ajudam a proteger a biodiversidade.</p>
+        </div>
+    </header>
+    <div class="content dark style1 featured">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-12-narrow">
+                    <section>
+                        <span class="feature-icon"><span class="icon solid fa-leaf"></span></span>
+                        <header><h3>Preservação</h3></header>
+                        <p>Preservar florestas, rios, oceanos e habitats é essencial para manter o equilíbrio dos ecossistemas.</p>
+                    </section>
+                </div>
+                <div class="col-4 col-12-narrow">
+                    <section>
+                        <span class="feature-icon"><span class="icon solid fa-paw"></span></span>
+                        <header><h3>Vida selvagem</h3></header>
+                        <p>Conhecer os animais e seus hábitos amplia nossa compreensão sobre a riqueza da biodiversidade.</p>
+                    </section>
+                </div>
+                <div class="col-4 col-12-narrow">
+                    <section>
+                        <span class="feature-icon"><span class="icon solid fa-globe-americas"></span></span>
+                        <header><h3>Nosso planeta</h3></header>
+                        <p>Pequenas escolhas no dia a dia podem contribuir para um futuro mais sustentável para todas as espécies.</p>
+                    </section>
+                </div>
+                <div class="col-12">
+                    <footer><a href="#second" class="button scrolly">Conhecer os animais</a></footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="second" class="main">
+    <header>
+        <div class="container">
+            <h2>Faces incríveis do mundo animal</h2>
+            <p>Da floresta tropical aos grandes oceanos, cada espécie desempenha um papel importante no equilíbrio da vida.</p>
+        </div>
+    </header>
+    <div class="content dark style2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-12-narrow">
+                    <section>
+                        <h3>Uma biodiversidade que merece ser conhecida</h3>
+                        <p>A biodiversidade reúne a variedade de seres vivos, seus genes e os ecossistemas onde vivem. Observar essa diversidade é também compreender como todas as formas de vida estão conectadas.</p>
+                        <p>Informação, respeito aos animais e cuidado com os ambientes naturais são caminhos importantes para a conservação.</p>
+                        <div class="eco-quote">“Cuidar da natureza é cuidar da rede de vida da qual fazemos parte.”</div>
+                        <footer><a href="#third" class="button scrolly">Explorar ecossistemas</a></footer>
+                    </section>
+                </div>
+                <div class="col-8 col-12-narrow nature-gallery">
+                    <div class="row">
+                        <div class="col-6"><a href="#" class="image fit animal-card"><img src="https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=900&q=85" alt="Leão em ambiente natural" /></a></div>
+                        <div class="col-6"><a href="#" class="image fit animal-card"><img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=85" alt="Ave colorida na natureza" /></a></div>
+                        <div class="col-6"><a href="#" class="image fit animal-card"><img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=900&q=85" alt="Raposa em ambiente natural" /></a></div>
+                        <div class="col-6"><a href="#" class="image fit animal-card"><img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=900&q=85" alt="Gato observando a natureza" /></a></div>
+                        <div class="col-6"><a href="#" class="image fit animal-card"><img src="https://images.unsplash.com/photo-1535930749574-1399327ce78f?auto=format&fit=crop&w=900&q=85" alt="Urso em ambiente natural" /></a></div>
+                        <div class="col-6"><a href="#" class="image fit animal-card"><img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=900&q=85" alt="Leão em close na natureza" /></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="third" class="main">
+    <header>
+        <div class="container">
+            <h2>Ecossistemas: diferentes lugares, uma só vida</h2>
+            <p>Florestas, oceanos, savanas e montanhas abrigam comunidades inteiras de seres vivos.</p>
+        </div>
+    </header>
+    <div class="content dark style3">
+        <div class="container">
+            <span class="image featured">
+                <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1800&q=90" alt="Paisagem natural com montanhas e vegetação" />
+            </span>
+            <div class="row">
+                <div class="col-4 col-12-narrow">
+                    <h3>Florestas</h3>
+                    <p>Florestas abrigam uma enorme variedade de plantas, animais e microrganismos. Elas também participam do ciclo da água, armazenam carbono e ajudam a regular o clima.</p>
+                </div>
+                <div class="col-4 col-12-narrow">
+                    <h3>Oceanos</h3>
+                    <p>Os oceanos ocupam grande parte da superfície terrestre e sustentam ecossistemas de enorme diversidade, desde recifes de coral até regiões profundas.</p>
+                </div>
+                <div class="col-4 col-12-narrow">
+                    <h3>Conservação</h3>
+                    <p>Reduzir desperdícios, respeitar áreas protegidas, evitar a compra de produtos de origem ilegal e valorizar projetos de conservação são atitudes que fazem diferença.</p>
+                    <footer><a href="#fourth" class="button scrolly">Falar sobre sustentabilidade</a></footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="fourth" class="main">
+    <header>
+        <div class="container">
+            <h2>Faça parte da mudança</h2>
+            <p>Compartilhe uma mensagem sobre sustentabilidade, conservação ou uma sugestão para tornar este projeto ainda mais educativo.</p>
+        </div>
+    </header>
+    <div class="content style4 featured">
+        <div class="container medium">
+            <form method="post" action="#">
+                <div class="row gtr-50">
+                    <div class="col-6 col-12-mobile"><input type="text" placeholder="Seu nome" aria-label="Seu nome" /></div>
+                    <div class="col-6 col-12-mobile"><input type="email" placeholder="Seu e-mail" aria-label="Seu e-mail" /></div>
+                    <div class="col-12"><textarea name="message" placeholder="Escreva sua mensagem..." aria-label="Mensagem"></textarea></div>
+                    <div class="col-12">
+                        <ul class="actions special">
+                            <li><input type="submit" class="button" value="Enviar mensagem" /></li>
+                            <li><input type="reset" class="button alt" value="Limpar" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <ul class="icons">
+        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+        <li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+        <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+    <div class="copyright">
+        <ul class="menu">
+            <li>&copy; 2026 EcoVida</li>
+            <li>Desenvolvido por <strong>Pedro Correia Lopes Filho</strong></li>
+            
+        </ul>
+    </div>
+</section>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
